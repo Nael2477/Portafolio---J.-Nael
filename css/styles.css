@@ -1,0 +1,229 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;  
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+  
+  body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2;
+    background-color: #020403;
+    color: #FFF;
+  }
+  
+  .wrapper {
+    width: 100vw;
+    height: 400vh;
+    color: #fff;
+  }
+  .navbar {
+    display: flex;
+    justify-content: right;
+    padding: 2em;
+    margin: 0 auto;
+  }
+  .menu {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+  }
+  .menu  li {
+    list-style: none;
+  }
+  .menu a {
+    color: #ADADAD;
+    text-decoration: none;
+    padding: 10px 20px; 
+  }
+  .main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .profile {
+    border-radius: 43%;
+    width: 18vw;
+    height: 42vh;
+    margin: 0 auto;
+    justify-content: center;
+    z-index:1;
+  }
+  .h1_main{
+    top: 45vh;
+    position:absolute;
+    width: 18vw;
+    height: 45vh;
+    margin: 0 auto;
+    justify-content: center;
+    z-index:0;
+    color: #ADADAD;
+    }
+  .h1_main2{
+    top: 54vh;
+    font-size: 25px;
+    font-weight: 600;
+    width: 300px;
+    position:absolute;
+    z-index:0;
+    color: #fff;
+    }
+  .h1_main2{
+    top: 55vh;
+    font-size: 50px;
+    font-weight: 600;
+    position:absolute;
+    margin: 0 auto;
+    justify-content: center;
+    z-index:0;
+    color: #fff;
+    }
+  .icons{
+    display: flex;
+    top: 85vh;
+    position:absolute;
+    justify-content: center;
+  }
+  .icons1{
+    width: 5vw;
+    margin: 0 40px;
+  }
+  .info{
+    display:block;
+    top: 102vh;
+    position:absolute;
+    justify-content: center;
+  }
+  .info1{
+    font-size: 25px;
+    font-weight: 600;
+    width: 30vw;
+    margin: 0 40px;
+    justify-content: center;
+    text-align: center;
+  }
+  .info2{
+    position: absolute;
+    top: 13vh;
+    width: 30vw;
+    margin: 0 40px;
+    justify-content: center;
+    text-align: center;
+    color: #ADADAD;
+    margin-bottom: 10vh;
+  }
+  .habilidades{
+    display:block;
+    top: 142vh;
+    position:absolute;
+    justify-content: center;
+  }
+  .habilidades1{
+    font-size: 25px;
+    position: absolute; /* para posicionar o texto no topo da imagem */
+    top: -20px; /* para mover o texto para cima */
+    width: 100%; /* para ocupar toda a largura da imagem */
+    text-align: center; /* para centralizar o texto */
+  }
+  .habilidades2 {
+    display: flex;
+    text-align: center; /* para centralizar o container */
+    justify-content: center;
+    padding: 30px;
+    }
+  .icons_habil {
+    position: absolute; /* para posicionar o texto no topo da imagem */
+    top: -20px; /* para mover o texto para cima */
+    width: 100%; /* para ocupar toda a largura da imagem */
+    text-align: center; /* para centralizar o texto */
+  }
+  .circle {
+    position: relative;
+    display: inline-block; /* para exibir as imagens lado a lado */
+    margin: 0 auto; /* para centralizar as imagens verticalmente */
+    text-align: center; /* para centralizar o texto debaixo das imagens */
+    width: 10vw;
+    height: 20vh;
+    margin: 5px 70px;
+    border-radius: 50%; /* para transformar a imagem em um círculo */
+    background-color: #1C1616; /* para mudar a cor de fundo da imagem para marrom */
+    padding: 20px; /* para adicionar espaçamento entre a imagem e o círculo */
+  }
+  .experiencia{
+    font-size: 15px;
+    display:block;
+    top: 220vh;
+    position:absolute;
+    justify-content: center;
+  }
+  .t_exp{
+    padding: 20px;
+    margin: 0 auto;
+    top: 10vh;
+    color:#fff 
+  }
+  .t_exp td{
+    text-align: center;
+    justify-content: center;
+    width: 16vw;
+    height: 10vh;  
+  }
+  
+  .container {
+    display:inline-flex;
+    top: 275vh;
+    position:absolute;
+    justify-content: center;
+  }
+  .port_h1 {
+    font-size: 25px;
+    position: absolute;
+    top: -10vh;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto; 
+  }
+  .port_i {
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px; 
+  margin-left: 10px;
+  }
+  
+  .port_i > div {
+  display: flex; 
+  align-items: center;
+  margin: 0 20px;
+  }
+
+.cont{
+  display:inline-flex;
+  top: 330vh;
+  position:absolute;
+  justify-content: center;
+}
+.circle_cont {
+    position: relative;
+    display: inline-block; /* para exibir as imagens lado a lado */
+    margin: 0 auto; /* para centralizar as imagens verticalmente */
+    text-align: center; /* para centralizar o texto debaixo das imagens */
+    width: 10vw;
+    height: 20vh;
+    margin: 5px 70px;
+    border-radius: 50%; /* para transformar a imagem em um círculo */
+    padding: 20px; /* para adicionar espaçamento entre a imagem e o círculo */
+    border: 2px solid white;
+  }
+
+  .footer {
+    color: #fff;
+    text-align: center
+  }
